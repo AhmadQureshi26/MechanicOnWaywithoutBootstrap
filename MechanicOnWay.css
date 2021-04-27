@@ -1,0 +1,141 @@
+
+/* CSS RESET */
+body {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://i.pinimg.com/originals/40/0d/6d/400d6d1deec3d4714e603724656a7b9a.jpg');
+     /* background-image: url('https://wallpaperaccess.com/full/334443.jpg');  */
+        height: 600px;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: -15px;
+    display: inline-block;
+    /* border: 2px solid greenyellow; */
+}
+
+.left img {
+    margin: 30px;
+    width: 75px;
+    /* filter: invert(100%); */
+}
+
+.mechanicname {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    line-height: 200px;
+    padding: 17px;
+    font-size: 28px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+.mid {
+    position: absolute;
+    display: inline-block;
+    right: 356px;
+    top: 20px;
+    width: 54%;
+    /* border: 2px solid orange;
+    background-color: darkgoldenrod ; */
+
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 33px;
+    display: inline-block;
+    /* border: 2px solid tomato; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.navbar li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0px 40px;
+    font-weight: bolder;
+}
+
+.navbar li a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    background-color: rgb(165, 73, 12);
+    font-size: 23px;
+}
+
+.btn {
+    font-family: 'Andalus';
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px 10px;
+    padding: 5px 21px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(37, 18, 18);
+}
+
+.container {
+    border: solid black;
+    margin: 0px 34px;
+    padding: 21px;
+    width: 37%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Andalus';
+    text-align: center;
+    display: block;
+    width: 344px;
+    padding: 0px;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container button {
+    font-size: 22px;
+    display:inline;
+    width: 150px;
+    
+}
+
+.btnform{
+    margin-left: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    display:inline;
+    width: 150px;
+    
+}
